@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/estilo_login.css">
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autenticación de Usuarios</title>
+</head>
+<body>
+    <form class="needs-validation" novalidate>
+    <div class="banner"> 
+        <div class="container">
+            <div class="cuadro">
+                <h3>
+                    <span class="linea">Iniciar Sesión</span>   
+                </h3>
+                <img src="images/LogoElBote.png" width="150">
+                <div class="row margen">
+                    <div class="col-12 mb-3">
+                        <input type="text" name="" class="form-control transparent-input"
+                        placeholder="Ingrese usuario" required minlength="8" maxlength="8"
+                        >
+                        <div class="invalid-feedback">Usuario obligatorio</div>
+                    </div>
+                </div>
+                <div class="row margen mt-3">
+                    <div class="col-12">
+                        <input type="password" name="" class="form-control transparent-input"
+                        placeholder="Ingrese contraseña" required minlength="8" maxlength="8"
+                        >
+                        <div class="invalid-feedback">Contraseña obligatoria</div>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-12 mb-3 mt-3 text-center">
+                       <button type="submit" class="btn btn-outline-light button">Iniciar sesión</button>
+                    </div>
+                </div>
+                <br>
+             </div>
+        </div>
+      </form>
+   </div>
+
+    <script type="text/javascript" src="js/validacion.js"></script>
+
+</body>
+</html>
